@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:wght@400;700;900&display=swap');
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, capxion, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcapxion, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcapxion, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.container{
+    background-image: url("../images/background/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 30px;
+}
+
+.wrapper{
+    background:plum;
+    padding: 1.5em;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+    background: rgb(157,79,152);
+    background: linear-gradient(180deg, rgba(157,79,152,1) 30%, rgba(38,75,157,1) 100%);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, .4);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+}
+
+.search-bar{   
+    padding: 1em;
+    border-radius: 5px;
+    border: none;   
+    width: calc(100% - 270px);
+    padding-left: 10px;
+}
+
+.search-button{
+    border-radius: 4px;
+    border: none;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(255, 255, 255, .4); 
+}
+
+.location-button{
+    border-radius: 4px;
+    border: none;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, .4);
+    opacity:0.8;
+}
+
+.location-button img{
+    width: 10px;
+}
+
+.top{
+    padding-top: 1.3em;
+}
+
+.city{
+    color: #FF9D72;
+    font-size: 35px;
+}
+
+.date{
+    padding-top: 0.3em;
+    color: white;
+    font-size: 12px;
+    display: grid;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.3em;
+}
+
+.text{
+    padding-top: 1em;
+    color: white;
+    font-size: 20px;
+}
+
+.weather{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.weather img{
+    width: 40px;
+    margin-bottom: -25px;
+}
+
+.temp{
+    font-size: 50px;
+}
+
+.degree{
+    display: block;
+}
+
+.santigrat{
+    font-family: 'Poppins', sans-serif;
+}
+
+.line{
+    margin-bottom: -30px;
+    font-size: 12px;    
+}
+
+.fahrenheit{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: rgb(246, 192, 201); 
+}
+
+.details{
+    width: 50%;
+    color: white;  
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+}
+
+.bottom{
+    padding-top: 3em;
+    margin-bottom: 20px;
+}
+
+.proposal{
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.shape{
+    display: flex;
+    justify-content: space-between;
+}
+
+.weathers{
+    color: white;
+    text-align: center;
+    display: grid;
+    flex-direction:column;
+    text-align: center;
+}
+
+.weathers img{
+    width: 50px;
+    height: 40px;
+    margin: auto;
+}
+
+.time{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.degrees{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+b{
+    font-weight: bold;
+}

@@ -5,9 +5,6 @@
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
+@import './assets/css/style.css';
 </style>
-p 
+ 
